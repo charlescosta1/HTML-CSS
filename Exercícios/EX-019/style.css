@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+    em HTML é id    = em CSS é #
+    em HTML é class = em CSS é .
+*/
+
+body {
+    background-color: #9a9ac9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: #242453;
+}
+h1#principal {
+    text-align: center;
+    background-color: #3a3375;
+    color: white;
+}
+/*  SELETOR PRINCIPAL ^^^ */
+button#botao {
+    background-color: rgb(17, 122, 7);
+    color: cornsilk;
+    border-radius: 5px;
+    
+}
+h2 {
+    color: #424291;
+}
+.basico{
+    color: #468855f6;
+}
+.intermediario{
+    color: rgb(214, 226, 47);
+}
+.avancado{
+    color: darkred;
+}
+.destaque{
+    background-color: rgba(184, 135, 11, 0.350);
+}

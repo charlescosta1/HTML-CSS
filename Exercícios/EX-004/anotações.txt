@@ -1,0 +1,1 @@
+Para adicionar o Favicon ao seu projeto, você deve digitar o comando "link" no head do projeto e esperar um pouco até aparecer as possíveis opções. Vai aparecer a opção link:favicon e dentro de href você dá um ctrl+space e escolhe o seu ícone!

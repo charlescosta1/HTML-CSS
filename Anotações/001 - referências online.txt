@@ -1,0 +1,4 @@
+httpsdeveloper.mozilla.orgpt-BRdocsWebReference
+httpswww.w3.orgstandardswebdesign
+httpshtml.spec.whatwg.org
+httpswww.w3schools.com

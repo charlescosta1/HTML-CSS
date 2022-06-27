@@ -1,0 +1,34 @@
+<head>: cabeçalho do código
+<title>: título do documento
+<body>: corpo do documento
+<h1, h2, h3. h4, h5 e h6>: tags de título de diferentes tamanhos
+<br>: quebra de linha
+<hr>: uma linha que atravessa toda a página na horizontal
+<p>: parágrafo
+<img>: inserir imagem
+<link:favicon:> inserindo fav icon
+<address>: usado para indicar endereço
+<style>: adicionar estilos CSS no código
+<b>: palavra em negrito (não semântico)
+<strong>: palavra em negrito com utilização semântica
+<i>: palavra em itálico
+<em>: palavra em ênfase
+<mark>: utilizado para marcar algo no código
+<big> & <small>: texto grande e pequeno
+<del>: texto deletado
+<ins>: texto inclúido
+<u>: texto sublinhado
+<sup>: texto sobrescrito
+<sub>: texto subscrito
+<code> representar algo que está escrito em linguagem de programação
+<pre>: texto pré-formatado
+<q>: citação simples
+<blockquote cite="link da citação">: citação completa
+<abbr>: abreviação
+<bdo dir="rtl">: texto invertido
+<ol>: lista ordenada
+<li>: item da lista
+<ul>: lista não ordenada
+<dd> e <dt>: fornece detalhes ou uma definição mais completa do termo
+<a href="link">: link
+

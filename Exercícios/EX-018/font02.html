@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas</title>
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+        @font-face {
+            font-family: 'StarWars';
+            src: url(fonts/Starjedi.ttf) format('truetype'), url(fonts/Starjhol.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            /*
+            Tipos de formatos: 
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-opentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+        }
+        body {
+            font-family: 'Bebas Neue', cursive;
+        }
+        h1 {
+            font-family: 'StarWars', serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>olá, Mundo!</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Beatae, quae! Blanditiis ut voluptates, perferendis aliquid optio error culpa ex ipsa laborum iusto eligendi saepe nemo nulla aperiam officia perspiciatis debitis?</p>
+</body>
+</html>

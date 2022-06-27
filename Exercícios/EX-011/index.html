@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imgs/foto-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imgs/foto-M.png" type="image/png">
+        <img src="imgs/foto-G.png" alt="Imagem Flexível.">
+    </picture>
+    <h1>Vamos reproduzir um áudio em HTML5</h1>
+    <!--< PRIMEIRO MODO DE COLOCAR UM ÁUDIO.
+    audio src="midia/music.mp3" controls autoplay></audio>
+    <audio><source src="midia/music.mp3" type="audio/mpeg"></audio>
+    <p><a href="midia/music.mp3" target="_blank">Baixe aqui o arquivo MP3!</a></p>-->
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/music.mp3" type="audio/mpeg">
+        <source src="midia/music.wav" type="audio/wav">
+        <source src="midia/music.ogg" type="audio/ogg">
+    </audio>
+    <p>Infelizmente seu navegador não tem compatibilidade com reprodução de áudio. <a href="midia/music.mp3" target="_blank">Clique aqui para baixar o áudio.</a></p>
+</body>
+</html>
